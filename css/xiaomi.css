@@ -765,28 +765,30 @@ z-index: 999;
 	background-color: rgba(0,0,0,0.4);
 	color: #fff;
 }
-.lbtn{
+.banner .lbtn{
 	left: 234px;
 }
 .rbtn{
 	right: 0;
 }
-.banner-pages{
-	width: 140px;
+.banner .banner-pages{
+	width: 140px!important;
 	height: 10px;
 	position: absolute;
 	right: 30px;
-	bottom:10px;
+	left: auto!important;
+	bottom: 10px!important;
 	z-index: 999;
 }
-.banner-pages li{
+.banner-pages .swiper-pagination-bullet{
 	width: 6px;
 	height: 6px;
-	background-color:  rgba(0,0,0,0.4);
+	background-color: #ccc;
 	border-radius: 50%;
 	float: left;
 	margin: 0 5px;
-	border: 2px solid rgba(255,255,255,0.3);
+	border: 2px solid #666;
+	cursor: pointer;
 }
 .nav-search{
 	width: 296px;

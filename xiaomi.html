@@ -80,6 +80,7 @@
 	</div>
 
 	<!-- 导航结束 -->
+	<!-- bnner开始 -->
 	<div class="banner swiper-container floor">
 		<div class="swiper-wrapper">
 		 <div class="banner-img swiper-slide" >
@@ -95,6 +96,7 @@
 		 </div>	
 
         </div>
+        <!-- bnner结束 -->
 			<div class="banner-nav">
 				<div class="banner-item">
 					<span>手机 电话卡</span><span> > </span></div>
@@ -118,8 +120,8 @@
 					<span>米兔 生活周边</span><span> > </span></div>
 		    </div>
 		
-		<div class="banner-btn lbtn"> < </div>
-		<div class="banner-btn rbtn"> > </div>
+		<div class="banner-btn lbtn swiper-button-prev swiper-button-white">  </div>
+		<div class="banner-btn rbtn swiper-button-next swiper-button-white"> </div>
 
 		<ul class="banner-pages swiper-pagination">
 		   <!--  <li></li>
@@ -905,8 +907,11 @@
 
 <script> 
 var mySwiper = new Swiper('.swiper-container', {
-	autoplay: 5000,//可选选项，自动滑动
+	autoplay: 2000,//可选选项，自动滑动
 	effect : 'fade',
+	pagination: '.swiper-pagination',
+	loop : true,
+
 })
 
 
